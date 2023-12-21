@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
     <>
       <h1 className="border-2 border-red-500">Hello</h1>
       <HeroSection />
+      <Footer />
     </>
   );
 };
