@@ -8,17 +8,23 @@ import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
   return (
     <>
-      <div className="border-2 border-red-500 max-w-[1050px] m-auto py-10 px-8 space-y-7 flex flex-col lg:flex-row lg:justify-around lg:space-y-0 lg:gap-4">
+      <div className="bg-customGray1 max-w-[1050px] m-auto py-10 px-8 space-y-7 flex flex-col lg:flex-row lg:justify-around lg:space-y-0 lg:gap-4">
         {/* first part start here */}
         <div className="space-y-5">
-          <div className="border-2 border-green-500 flex space-x-3 items-center">
-            <AiOutlineShop className="w-[32px] h-[32px]" />
-            <h1>NFT Marketplace</h1>
+          <div className=" flex space-x-3 items-center">
+            <AiOutlineShop className="w-[32px] h-[32px] text-customPurple" />
+            <h1 className="font-bold text-xl font-mono text-white">
+              NFT Marketplace
+            </h1>
           </div>
-          <p>NFT marketplace UI created with React for nft entushiats.</p>
+          <p className="font-sans text-gray-400">
+            NFT marketplace UI created with React for nft entushiats.
+          </p>
           <div className="mt-[20px]">
-            <p className="mb-[15px]">Join our community</p>
-            <div className="flex space-x-2">
+            <p className="mb-[15px] font-sans text-gray-400">
+              Join our community
+            </p>
+            <div className="flex space-x-2 text-gray-400">
               <PiDiscordLogo className="w-[32px] h-[32px]" />
               <PiYoutubeLogo className="w-[32px] h-[32px]" />
               <PiTwitterLogo className="w-[32px] h-[32px]" />
@@ -30,20 +36,22 @@ const Footer = () => {
 
         {/* second part start here */}
         <div className="space-y-5">
-          <h1 className="font-bold text-xl font-mono">Explore</h1>
-          <p>Marketplace</p>
-          <p>Rankings</p>
-          <p>Connect a wallet</p>
+          <h1 className="font-bold text-xl font-mono text-white">Explore</h1>
+          <p className="font-sans text-gray-400">Marketplace</p>
+          <p className="font-sans text-gray-400">Rankings</p>
+          <p className="font-sans text-gray-400">Connect a wallet</p>
         </div>
         {/* second part end here */}
 
         {/* third part start here */}
         <div>
-          <h1 className="text-bold font-mono font-bold text-xl mb-5">
+          <h1 className="text-bold font-mono font-bold text-xl mb-5 text-white">
             Join our weekly digest
           </h1>
           <div className="relative flex flex-col space-y-4">
-            <p>Get exclusive promotions & updates straight to your inbox.</p>
+            <p className="font-sans text-gray-400">
+              Get exclusive promotions & updates straight to your inbox.
+            </p>
             <input
               className="py-3 rounded-[20px] px-5 focus:border-transparent focus:outline-none md:max-w-1/2"
               type="text"

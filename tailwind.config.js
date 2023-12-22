@@ -6,6 +6,11 @@ module.exports = {
       backgroundColor: {
         customPurple: "#A259FF",
         customGray: "#2B2B2B",
+        customGray1: "#3B3B3B",
+      },
+      colors: {
+        customPurple: "#A259FF",
+        customGray: "#2B2B2B",
       },
     },
   },
