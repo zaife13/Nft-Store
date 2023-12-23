@@ -12,6 +12,9 @@ module.exports = {
         customPurple: "#A259FF",
         customGray: "#2B2B2B",
       },
+      fontFamily:{
+        'spacemono': ['Space Mono']
+      }
     },
   },
   plugins: [],

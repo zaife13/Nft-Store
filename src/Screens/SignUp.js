@@ -9,7 +9,7 @@ const SignUp = () => {
       <Navbar></Navbar>
       <div className="w-full h-full flex px-0 pt-3">
         <div className="w-1/2">
-          <img src={signup}></img>
+          <img alt='icon' src={signup}></img>
         </div>
         <div className="w-1/2 flex flex-col justify-center items-start px-10">
           <p className="text-white 2xl:text-5xl xl:text-5xl font-bold">

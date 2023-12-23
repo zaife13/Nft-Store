@@ -1,5 +1,4 @@
 import { AiOutlineShop, AiOutlineUser} from "react-icons/ai";
-import { GoPerson } from "react-icons/go";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () =>{

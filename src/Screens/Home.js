@@ -2,6 +2,7 @@ import BrowseCategories from "../Components/BrowseCategories";
 import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 import Navbar from "../Components/Navbar";
+import TopCreator from "../Components/TopCreator";
 import TrendingCollections from "../Components/TrendingCollections";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <TrendingCollections />
+      <TopCreator/>
       <BrowseCategories />
       <Footer />
     </>
