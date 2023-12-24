@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         customPurple: "#A259FF",
         customGray: "#2B2B2B",
+        customGray1: "#3B3B3B",
+        customGray2: "#7E7E7D",
       },
       fontFamily:{
         'spacemono': ['Space Mono']

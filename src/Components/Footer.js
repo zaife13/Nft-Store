@@ -60,10 +60,12 @@ const Footer = () => {
                 id=""
                 placeholder="Enter Your Email Address"
               />
+              {/* this button is hidden on small devices */}
               <button className="hidden md:bg-customPurple md:py-3 md:px-5 md:rounded-[20px] md:flex md:justify-center md:items-center md:gap-3 md:text-white md:absolute md:right-0 md:top-6">
                 <HiOutlineMail className="w-5 h-5" />
                 <p>Subscribe</p>
               </button>
+              {/* this button is hidden on small devices */}
               <button className="bg-customPurple py-3 rounded-[20px] mb-10 flex justify-center items-center gap-3 text-white md:hidden lg:hidden xl:hidden">
                 <HiOutlineMail className="w-5 h-5" />
                 <p>Subscribe</p>
