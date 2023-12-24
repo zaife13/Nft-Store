@@ -85,9 +85,9 @@ const BrowseCategories = () => {
         <div className="gap-5 mt-10 grid grid-cols-2 place-items-center md:grid-cols-4 md:gap-7">
           {data.map((item) => (
             <div className="max-w-60 max-h-80 mb-5 relative transition-transform transform-gpu hover:scale-90 duration-300">
-              <div className="w-full h-3/4 backdrop-blur relative">
+              <div className="w-full h-3/4  relative">
                 <img
-                  className="w-full h-full rounded-t-3xl backdrop-blur-xl"
+                  className="w-full h-full rounded-t-3xl "
                   src={item.img}
                   alt=""
                 />

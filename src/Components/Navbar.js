@@ -33,7 +33,7 @@ const Navbar = () =>{
                 <AiOutlineShop className="2xl:h-10 2xl:w-10 xl:h-9 xl:w-9 lg:h-8 lg:w-8 md:h-7 md:w-7 h-7 w-7 text-[#A259FF]"></AiOutlineShop>
                 <p className="font-mono text-white 2xl:text-2xl xl:text-xl lg:text-lg md:text-lg text-lg font-bold 2xl:mt-1 xl:mt-1 2xl:ml-4 xl:ml-4 lg:ml-4 md:ml-3 ml-3">NFT Marketplace</p>
             </div>
-            <div className="2xl:gap-7 xl:gap-5 lg:gap-5 2xl:mr-10 xl:mr-10 lg:mr-8 ">
+            <div className="2xl:gap-7 xl:gap-5 lg:gap-5 2xl:mr-10 xl:mr-10 lg:mr-8 flex">
                 <div className="text-white hover:scale-95 font-bold ease-out transition-all duration-300 cursor-pointer p-3 xl:mt-3">
                     <p className="2xl:text-base xl:text-base lg:text-base tracking-wide">Marketplace</p>
                 </div>
