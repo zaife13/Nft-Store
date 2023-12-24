@@ -34,14 +34,12 @@ const HowItWorks = () => {
           {data.map((item) => (
             <div className=" bg-customGray1 rounded-[20px] pt-5 pb-5 pl-5 pr-5 md:pt-3 md:pb-7 w-full md:max-w-[270px] flex justify-between md:flex-col">
               <div>
-                <img
-                  className="max-w-[100px] max-h-[160px] m-auto md:max-w-[100px] md:max-h-[160px] lg:max-w-[200px] lg:max-h-[200px]"
-                  src={item.img}
-                  alt="wallet icon"
-                />
+                <img src={item.img} alt="wallet icon" />
               </div>
-              <div className="text-white flex flex-col items-start justify-center md:items-center">
-                <h1>{item.title}</h1>
+              <div className="text-white gap-3 flex flex-col items-start justify-center md:items-center">
+                <h1 className="text-base font-semibold md:text-[22px]">
+                  {item.title}
+                </h1>
                 <p className="text-xs md:text-center">{item.para}</p>
               </div>
             </div>
