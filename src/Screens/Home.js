@@ -14,7 +14,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <TrendingCollections />
-      <TopCreator/>
+      <TopCreator />
       <BrowseCategories />
       <DiscoverMoreNfts />
       <HowItWorks />
