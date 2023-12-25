@@ -19,7 +19,7 @@ const Navbar = () =>{
     const menus = [
         { name: "Home", link: "/", icon: RiHome7Fill },
         { name: "Marketplace", link: "/marketplace", icon: GiShop },
-        { name: "Ranking", link: "/ranking", icon: FaRankingStar },
+        { name: "Ranking", link: "/rankings", icon: FaRankingStar },
         { name: "Connect a wallet", link: "/connectwallet", icon: RiWallet2Fill },
         { name: "SignUp", link: "/Signup", icon: RiLoginBoxFill },
       ];
@@ -37,7 +37,7 @@ const Navbar = () =>{
                 <div className="text-white hover:scale-95 font-bold ease-out transition-all duration-300 cursor-pointer p-3 xl:mt-3">
                     <p className="2xl:text-base xl:text-base lg:text-base tracking-wide">Marketplace</p>
                 </div>
-                <div className="text-white hover:scale-95 font-bold ease-out transition-all duration-300 cursor-pointer p-3 xl:mt-3">
+                <div onClick={()=>{navigate('/rankings')}} className="text-white hover:scale-95 font-bold ease-out transition-all duration-300 cursor-pointer p-3 xl:mt-3">
                     <p className="2xl:text-base xl:text-base lg:text-base tracking-wide">Ranking</p>
                 </div>
                 <div onClick={()=>{navigate('/connectwallet')}} className="text-white hover:scale-95 font-bold ease-out transition-all duration-300 cursor-pointer p-3 xl:mt-3">

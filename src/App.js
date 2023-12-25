@@ -5,6 +5,7 @@ import Home from "./Screens/Home";
 import SignUp from "./Screens/SignUp";
 import WalletConnect from "./Screens/WalletConnect";
 import Marketplace from "./Screens/Marketplace";
+import Rankings from "./Screens/Rankings";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
           <Route path="/signup" element={<SignUp />}></Route>
           <Route path="/connectwallet" element={<WalletConnect />}></Route>
           <Route path="/marketplace" element={<Marketplace />}></Route>
+          <Route path="/signup" element={<SignUp/>}></Route>
+          <Route path="/connectwallet" element={<WalletConnect/>}></Route>
+          <Route path="/rankings" element={<Rankings/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
