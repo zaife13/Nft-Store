@@ -6,6 +6,7 @@ import SignUp from "./Screens/SignUp";
 import WalletConnect from "./Screens/WalletConnect";
 import Marketplace from "./Screens/Marketplace";
 import Rankings from "./Screens/Rankings";
+import NFTDetail from "./Screens/NFTDetail";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" element={<SignUp/>}></Route>
           <Route path="/connectwallet" element={<WalletConnect/>}></Route>
           <Route path="/rankings" element={<Rankings/>}></Route>
+          <Route path="/nftdetail" element={<NFTDetail/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
