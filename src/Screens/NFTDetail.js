@@ -64,33 +64,58 @@ const NFTDetail = () => {
     <>
     <Navbar/>
     <div >
-        <img alt='bg' className=' object-cover h-[572px] w-full' src={nftdetail}></img>
+        <img alt='bg' className=' object-cover 2xl:h-[572px] xl:h-[572px] lg:h-[572px] h-96 w-full' src={nftdetail}></img>
     </div>
-    <div className='flex flex-row ml-20 mt-10 mb-10'>
-        <div className='w-3/4 flex flex-col'>
+    <div className='flex flex-row 2xl:ml-20 xl:ml-20 lg:ml-20 ml-4 mt-10 mb-10'>
+        <div className='2xl:w-3/4 xl:w-3/4 lg:w-3/4 md:w-3/5 w-11/12 flex flex-col'>
             <p className='2xl:text-6xl xl:text-6xl lg:text-4xl md:text-4xl text-3xl font-bold text-white tracking-wide'>The Orbitians</p>
-            <p className='text-[#858584] text-[22px] mt-4 tracking-widest'>Minted On Sep 30, 2022</p>
-            <p className='text-[#858584] text-[22px] mt-10 font-bold tracking-wide font-mono'>Created By</p>
+            <p className='text-[#858584] 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base mt-4 tracking-widest'>Minted On Sep 30, 2022</p>
+            <div className='lg:w-[340px] block lg:hidden md:hidden mt-4'>
+            <div className='flex flex-col justify-start p-[30px] w-full bg-[#3B3B3B] rounded-[20px]'>
+                <p className='font-mono text-xs tracking-wider text-white'>Auction ends in:</p>
+                <div className='flex mt-1 gap-3 '>
+                <div>
+                    <p className='font-bold text-[38px] text-white font-mono tracnking-wider'>{hours}</p>
+                    <p className='text-xs tracking-wider font-mono text-white'>Hours</p>
+                </div>
+                <p className='font-bold text-[34px] text-white font-sans'>:</p>
+                <div>
+                    <p className='font-bold text-[38px] text-white font-mono tracnking-wider'>{minutes}</p>
+                    <p className='text-xs tracking-wider font-mono text-white'>Minutes</p>
+                </div>
+                <p className='font-bold text-[34px] text-white font-sans'>:</p>
+                <div>
+                    <p className='font-bold text-[38px] text-white font-mono tracnking-wider'>{seconds}</p>
+                    <p className='text-xs tracking-wider font-mono text-white'>Seconds</p>
+                </div>
+                </div>
+                <div className='h-[60px] w-full bg-[#A259FF] rounded-[20px] px-12 flex justify-center items-center font-bold text-base mt-8 text-white transition-all duration-300 hover:scale-95 cursor-pointer'>
+                    Place Bid
+                </div>
+                 </div>
+                
+        </div>
+            <p className='text-[#858584] 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base mt-10 font-bold tracking-wide font-mono'>Created By</p>
             <div className='flex items-center mt-4'>
                 <img alt='avatar' src={avatar} className='h-6 w-6'></img>
                 <p className='text-[24px] ml-2 text-white font-bold tracking-wide' >Orbitian</p>
             </div>
-            <p className='text-[#858584] text-[22px] mt-10 font-bold tracking-wide font-mono'>Description</p>
-            <p className='text-white text-[22px] tracking-wider w-3/4 mt-4'>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain, </p>
-            <p className='text-white text-[22px] tracking-wider w-3/4 mt-7'>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians. </p>
-            <p className='text-white text-[22px] tracking-wider w-3/4 mt-7'>They live in a metal space machines, high up in the sky and only have one foot on Earth.
+            <p className='text-[#858584] 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base mt-10 font-bold tracking-wide font-mono'>Description</p>
+            <p className='text-white 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base tracking-wider 2xl:w-3/4 xl:w-3/4 lg:w-3/4 w-full mt-4'>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain, </p>
+            <p className='text-white 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base tracking-wider 2xl:w-3/4 xl:w-3/4 lg:w-3/4 w-full mt-7'>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians. </p>
+            <p className='text-white 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base tracking-wider 2xl:w-3/4 xl:w-3/4 lg:w-3/4 w-full mt-7'>They live in a metal space machines, high up in the sky and only have one foot on Earth.
 These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>
-            <p className='text-[#858584] text-[22px] mt-10 font-bold tracking-wide font-mono'>Details</p>
+            <p className='text-[#858584] 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base mt-10 font-bold tracking-wide font-mono'>Details</p>
             <div className='flex items-center mt-4'>
                 <SlGlobe className='h-7 w-7 text-[#858584]'/>
-                <p className='text-[22px] ml-4 text-white tracking-wider'>View on Etherscan</p>
+                <p className='2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base ml-4 text-white tracking-wider'>View on Etherscan</p>
             </div>
             <div className='flex items-center mt-4'>
                 <SlGlobe className='h-7 w-7 text-[#858584]'/>
-                <p className='text-[22px] ml-4 text-white tracking-wider'>View Original</p>
+                <p className='2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base ml-4 text-white tracking-wider'>View Original</p>
             </div>
-            <p className='text-[#858584] text-[22px] mt-10 font-bold tracking-wide font-mono'>Tags</p>
-            <div className='flex items-center mt-4 gap-3'>
+            <p className='text-[#858584] 2xl:text-[22px] xl:text-[22px] lg:text-[22px] text-base mt-10 font-bold tracking-wide font-mono'>Tags</p>
+            <div className='flex 2xl:flex-row xl:flex-row lg:flex-row flex-col 2xl:items-center xl:item-center lg:items-center items-start mt-4 gap-3'>
                 <div className='flex items-center justify-center px-8 font-semibold tracking-wider uppercase text-white bg-[#3B3B3B] rounded-3xl h-[46px]'>
                     <p>animation</p>
                 </div>
@@ -105,7 +130,7 @@ These Orbitians are a peaceful race, but they have been at war with a group of i
                 </div>
             </div>
         </div>
-        <div className='w-[340px] mr-20'>
+        <div className='lg:w-[340px] lg:mr-20 hidden md:block lg:block'>
             <div className='flex flex-col justify-start p-[30px] w-full bg-[#3B3B3B] rounded-[20px]'>
                 <p className='font-mono text-xs tracking-wider text-white'>Auction ends in:</p>
                 <div className='flex mt-1 gap-3 '>
@@ -131,10 +156,10 @@ These Orbitians are a peaceful race, but they have been at war with a group of i
                 
         </div>
     </div>
-    <div className='pt-20 pb-8 px-20 flex flex-col'>
-    <div className='flex flex-row justify-between items-center'>
+    <div className='pt-20 pb-8 2xl:px-20 xl:px-20 lg:px-20 md:px-20 px-4 flex flex-col 2xl:items-start xl:items-start lg:items-start md:items-start items-center'>
+    <div className='flex flex-row justify-between items-center 2xl:w-full xl:w-full lg:w-full md:w-full w-[350px]'>
         <div className="space-y-2">
-          <h1 className="text-white font-bold 2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-[26px] tracking-wider">
+          <h1 className="text-white font-bold 2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-3xl tracking-wider">
             More From This Artist
           </h1>
         </div>
@@ -143,7 +168,7 @@ These Orbitians are a peaceful race, but they have been at war with a group of i
             <p className='font-bold text-white 2xl:text-base xl:text-base tracking-wider'>Go To Artist Page</p>
         </div>
     </div>
-    <div className="max-w-[1050px] m-auto grid gird-cols-1 place-items-center gap-[30px] md:grid-cols-2 lg:grid-cols-3 py-10 px-[30px] md:pt-[60px] md:pb-[80px]">
+    <div className="max-w-[1050px] m-auto grid gird-cols-1 place-items-center gap-[30px] md:grid-cols-2 lg:grid-cols-3 py-10 2xl:px-[30px] xl:px-[30px] lg:px-[30px] px-4 md:pt-[60px] md:pb-[80px]">
           {/* Card Start here */}
           {cardData.map((item) => (
             <div className=" bg-customGray1  rounded-[20px] max-w-[330px] max-h-[470px] transition-all cursor-pointer hover:scale-95 duration-500 ease-out">
@@ -176,6 +201,10 @@ These Orbitians are a peaceful race, but they have been at war with a group of i
             </div>
           ))}
           {/* Card End here  */}
+        </div>
+        <div className='mt-4 2xl:hidden xl:hidden lg:hidden md:hidden flex gap-4 rounded-2xl transition-all duration-500 ease-out hover:scale-95 cursor-pointer justify-center items-center px-10 h-[60px] bg-[#2B2B2B] border-[2px] border-[#A259FF] w-[330px]'>
+            <FaArrowRight className='text-purple-500 2xl:h-5 2xl:w-5 xl:h-5 xl:w-5'/>
+            <p className='font-bold text-white 2xl:text-base xl:text-base tracking-wider'>Go To Artist Page</p>
         </div>
     </div>
     <Footer/>
