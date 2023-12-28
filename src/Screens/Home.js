@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 import HowItWorks from "../Components/HowItWorks";
 import Navbar from "../Components/Navbar";
+import NftHighlight from "../Components/NftHighlight";
 import TopCreator from "../Components/TopCreator";
 import TrendingCollections from "../Components/TrendingCollections";
 import WeeklyDigest from "../Components/WeeklyDigest";
@@ -17,6 +18,7 @@ const Home = () => {
       <TopCreator />
       <BrowseCategories />
       <DiscoverMoreNfts />
+      <NftHighlight />
       <HowItWorks />
       <WeeklyDigest />
       <Footer />

@@ -6,7 +6,7 @@ const HeroSection = () => {
     <>
       <div className="bg-customGray max-w-[1050px] m-auto grid grid-cols-1 py-10 px-5 gap-0 md:gap-7  md:grid-cols-2  md:py-20 lg:px-20">
         <div className="text-white flex flex-col justify-center">
-          <h1 className="self-stretch uppercase font-semibold text-2xl ">
+          <h1 className="self-stretch uppercase font-semibold text-[28px] md:text-[38px] lg:text-[67px] ">
             Discover digital art & Collect NFTs
           </h1>
           <h2 className="text-base mt-3 mb-10 md:mb-5 lg:mb-8 lg:text-xl lg:mt-5">
