@@ -19,37 +19,37 @@ const SignUp = () => {
             Welcome! Enter Your Details And Start Creating, Collecting And
             Selling Nfts.
           </p>
-          <div className="flex bg-white 2xl:w-3/5 xl:w-3/4 lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-10">
+          <div className="flex bg-white 2xl:max-w-[400px] xl:max-w-[400px] lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-10 h-[46px]">
             <AiOutlineUser className="2xl:h-5 2xl:w-5 xl:h-5 xl:w-5 text-gray-400/70" />
             <input
               placeholder="Username"
-              className="ml-4 outline-none placeholder:text-gray-500/90"
+              className="ml-4 outline-none w-full placeholder:text-gray-500/90"
             ></input>
           </div>
-          <div className="flex bg-white 2xl:w-3/5 xl:w-3/4 lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-4">
+          <div className="flex bg-white 2xl:max-w-[400px] xl:max-w-[400px] lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-4 h-[46px]">
             <AiOutlineMail className="2xl:h-5 2xl:w-5 xl:h-5 xl:w-5 text-gray-400/70" />
             <input
               placeholder="Email"
-              className="ml-4 outline-none placeholder:text-gray-500"
+              className="ml-4 outline-none w-full placeholder:text-gray-500"
             ></input>
           </div>
-          <div className="flex bg-white 2xl:w-3/5 xl:w-3/4 lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-4">
+          <div className="flex bg-white 2xl:max-w-[400px] xl:max-w-[400px] lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-4 h-[46px]">
             <AiOutlineLock className="2xl:h-5 2xl:w-5 xl:h-5 xl:w-5 text-gray-400/70" />
             <input
               type="password"
               placeholder="Password"
-              className="ml-4 outline-none placeholder:text-gray-500"
+              className="ml-4 outline-none w-full placeholder:text-gray-500"
             ></input>
           </div>
-          <div className="flex bg-white 2xl:w-3/5 xl:w-3/4 lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-4">
+          <div className="flex bg-white 2xl:max-w-[400px] xl:max-w-[400px] lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-4 h-[46px]" >
             <AiOutlineLock className="2xl:h-5 2xl:w-5 xl:h-5 xl:w-5 text-gray-400/70" />
             <input
               type="password"
               placeholder="Confirm Password"
-              className="ml-4 outline-none placeholder:text-gray-500"
+              className="ml-4 outline-none w-full placeholder:text-gray-500"
             ></input>
           </div>
-          <div className="flex cursor-pointer justify-center items-center bg-[#A259FF] 2xl:w-3/5 xl:w-3/4 lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-9 hover:scale-95 ease-out transition-all duration-500">
+          <div className="flex cursor-pointer justify-center items-center bg-[#A259FF] 2xl:max-w-[400px] xl:max-w-[400px] lg:w-3/4 md:w-4/5 w-11/12 rounded-3xl px-4 py-2.5 mt-9 hover:scale-95 ease-out transition-all duration-500">
             <p className="text-white font-bold">Create Account</p>
           </div>
         </div>
