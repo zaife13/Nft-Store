@@ -13,16 +13,41 @@ const Marketplace = () => {
   return (
     <>
       <div>
+        {/* div for heading, subheading and searchbar start here */}
         <div className="text-white max-w-[1050px] m-auto py-10 px-5 md:py-[60px] md:px-10 lg:py-20">
-          <h1 className="text-[28px] md:text-[38px] lg:text-[50px]">
+          <h1 className="text-[28px] mb-[10px] md:text-[38px] lg:text-[50px]">
             Browse Marketplace
           </h1>
           <p>Browse through more than 50k NFTs on the NFT Marketplace.</p>
-          <div className="py-3 px-5 flex justify-between border-2 border-red-500 rounded-[20px]">
+          <div className="py-3 px-5 flex justify-between mt-[30px] border-2 border-customGray1 rounded-[20px]">
             <input className="w-[80%]" type="text" />
             <CgSearch className="w-6 h-6" />
           </div>
         </div>
+        {/* div for heading, subheading and searchbar end here */}
+
+        {/* div for inner navbar start here */}
+        <div className="max-w-[1050px] mt-8 pt-6 border-t-2 border-customGray1 m-auto flex justify-between">
+          <div className="w-full flex gap-4 items-center justify-center border-b-2  border-customGray3 pb-2">
+            <p className="text-white font-sans text-[22px] font-semibold cursor-pointer">
+              NFTs
+            </p>
+            <p className="hidden md:block py-[5px] px-[10px] rounded-[20px] bg-customGray3 font-mono text-white">
+              302
+            </p>
+          </div>
+
+          <div className="w-full flex gap-4  items-center justify-center pb-2">
+            <p className="text-white font-sans text-[22px] font-semibold  cursor-pointer">
+              Collections
+            </p>
+            <p className="hidden md:block py-[5px] px-[10px] rounded-[20px] bg-customGray3 font-mono text-white">
+              116
+            </p>
+          </div>
+        </div>
+        {/* div for inner navbar end here */}
+
         <div className="max-w-[1050px] m-auto grid gird-cols-1 place-items-center gap-[30px] md:grid-cols-2 lg:grid-cols-3 py-10 px-[30px] md:pt-[60px] md:pb-[80px]">
           {/* Card Start here */}
           {cardData.map((item) => (
