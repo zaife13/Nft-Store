@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import data from "../data/Card";
 import { CgSearch } from "react-icons/cg";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const Marketplace = () => {
   const [cardData, setCardData] = useState([]);
@@ -12,15 +14,20 @@ const Marketplace = () => {
 
   return (
     <>
+      <Navbar />
       <div>
         {/* div for heading, subheading and searchbar start here */}
         <div className="text-white max-w-[1050px] m-auto py-10 px-5 md:py-[60px] md:px-10 lg:py-20">
-          <h1 className="text-[28px] mb-[10px] md:text-[38px] lg:text-[50px]">
+          <h1 className="text-[28px] font-semibold mb-[10px] md:text-[38px] lg:text-[50px]">
             Browse Marketplace
           </h1>
           <p>Browse through more than 50k NFTs on the NFT Marketplace.</p>
           <div className="py-3 px-5 flex justify-between mt-[30px] border-2 border-customGray1 rounded-[20px]">
-            <input className="w-[80%]" type="text" />
+            <input
+              className="w-[90%] bg-transparent outline-none active:bg-transparent active:outline-none "
+              type="text"
+              placeholder="Search your Favourite NFTs"
+            />
             <CgSearch className="w-6 h-6" />
           </div>
         </div>
@@ -83,6 +90,7 @@ const Marketplace = () => {
           {/* Card End here  */}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
