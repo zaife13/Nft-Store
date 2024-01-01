@@ -24,7 +24,9 @@ const HowItWorks = () => {
     <>
       <div className="bg-customGray max-w-[1050px] space-y-10 m-auto py-10 px-5 lg:space-y-16 lg:py-20 lg:px-10">
         <div className="space-y-2">
-          <h1 className="text-white font-semibold text-2xl">How It Works</h1>
+          <h1 className="text-white font-bold 2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-[26px] tracking-wider">
+            How It Works
+          </h1>
           <h2 className="text-white font-light text-xl">
             Find out how to get started
           </h2>

@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="self-stretch uppercase font-semibold text-[28px] md:text-[38px] lg:text-[67px] ">
             Discover digital art & Collect NFTs
           </h1>
-          <h2 className="text-base mt-3 mb-10 md:mb-5 lg:mb-8 lg:text-xl lg:mt-5">
+          <h2 className="text-base font-sans mt-3 mb-10 md:mb-5 lg:mb-8 lg:text-[22px] lg:mt-5">
             NFT marketplace UI created with React and Tailwind CSS. Collect, buy
             and sell art from more than 20k NFT artists.
           </h2>

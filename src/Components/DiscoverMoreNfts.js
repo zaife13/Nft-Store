@@ -15,7 +15,7 @@ const DiscoverMoreNfts = () => {
         {/* div for heading and button start here */}
         <div className="flex bg-customGray">
           <div className="space-y-[10px] w-[70%]">
-            <h1 className="text-white font-semibold text-2xl">
+            <h1 className="text-white font-bold 2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-[26px] tracking-wider">
               Discover More NFTs
             </h1>
             <p className="text-white">Explore new trending NFTs</p>

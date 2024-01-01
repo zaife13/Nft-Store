@@ -79,7 +79,9 @@ const BrowseCategories = () => {
   return (
     <>
       <div className="bg-customGray max-w-[1050px] m-auto  py-10 px-5 gap-0 md:gap-7  md:py-20 lg:py-20 lg:px-10">
-        <h1 className="text-white font-semibold text-2xl">Browse Categories</h1>
+        <h1 className="text-white font-bold 2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-[26px] tracking-wider">
+          Browse Categories
+        </h1>
 
         {/* main div for cards to be rendered start here */}
         <div className="gap-5 mt-10 grid grid-cols-2 place-items-center md:grid-cols-4 md:gap-7">
